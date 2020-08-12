@@ -1,0 +1,11 @@
+.pdf-container {
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+@media print {
+  .pdf-container {
+    display: none;
+  }
+}

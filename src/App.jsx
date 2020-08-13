@@ -4,7 +4,7 @@ import PDF from "./huckfinn.pdf";
 import "./App.css";
 
 const App = () => (
-  <div class="content">
+  <div className="content">
     <h1>PDF Viewer Example</h1>
     <PdfViewer pdf={PDF} />
   </div>
